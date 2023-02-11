@@ -1,0 +1,9 @@
+.DS_Store
+Library/
+Logs/
+Logs.meta
+ProjectSettings/Packages/
+Temp/
+Temp.meta
+UserSettings/
+UserSettings.meta
