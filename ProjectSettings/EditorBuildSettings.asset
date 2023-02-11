@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Avatars.unity
-    guid: 0c873920d73c74295b69cb53fa3192c9
+    path: Assets/Scenes/Avatars-Elementals.unity
+    guid: ad437a13085994d3b86689109e0b2b24
   m_configObjects: {}
