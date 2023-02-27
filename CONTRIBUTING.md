@@ -26,14 +26,16 @@ If you would like to know more information about your image, run:
 
 ### Compression
 
-Use an image compression tool to optimize all images before committing them to the repository.
-Continuously strive to improve the image compression process and make it more efficient.
+Use an image compression tool to optimize all images
+before committing them to the repository.
+Continuously strive to improve the image compression process
+and make it more efficient.
 For example, you can start with a medium compression level and adjust as needed.
 
 Here are few examples:
 
      jpegoptim --all-progressive -m60 *.jpg
-     pngquant --force --quality=40-100 --skip-if-larger --verbose file.png --output file.png
+     pngquant --force --quality=40-100 --skip-if-larger in.png --output out.png
 
 ## Optimal format
 
@@ -48,7 +50,8 @@ To convert from one format to another, use ImageMagick's `convert` command:
 
 ### Size
 
-Find the right balance between image quality and file size by experimenting with different compression levels.
+Find the right balance between image quality and file size
+by experimenting with different compression levels.
 When the images dimensions are too big, use tools to resize it.
 
 Example using ImageMagick command-line tools:
